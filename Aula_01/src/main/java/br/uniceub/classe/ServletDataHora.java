@@ -1,4 +1,4 @@
-package br.uniceub.classe;
+ package br.uniceub.classe;
 
 import java.io.IOException;
 import java.io.PrintWriter;
