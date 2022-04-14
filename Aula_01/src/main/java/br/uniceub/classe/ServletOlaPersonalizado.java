@@ -25,6 +25,11 @@ public class ServletOlaPersonalizado extends HttpServlet {
 	saida.write("Olá," + req.getParameter("nome")+"!!!");
 	saida.write("</BODY><HTML>");
 	saida.close(); 
-	}	
+	}
+	
+protected void doPost(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
+	doGet(req, response);
+	}
+
 
 }
